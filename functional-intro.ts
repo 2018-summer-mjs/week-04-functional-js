@@ -7,7 +7,7 @@
 //
 
 
-window.setTimeout();
+//window.setTimeout();
 
 //
 // Hover over setTimeout() above and notice that the
@@ -15,3 +15,11 @@ window.setTimeout();
 // the callback. So this is a good reason, but there's
 // more...
 // 
+
+console.log('Waiting...');
+
+function addDot() {
+    console.log('.');
+}
+
+setTimeout(addDot, 5000); // 5 seconds...
