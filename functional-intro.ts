@@ -18,8 +18,4 @@
 
 console.log('Waiting...');
 
-function addDot() {
-    console.log('.');
-}
-
-setTimeout(addDot, 5000); // 5 seconds...
+setTimeout(function () { console.log('.'); }, 5000); // 5 seconds...
