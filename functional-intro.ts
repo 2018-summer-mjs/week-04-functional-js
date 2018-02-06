@@ -18,4 +18,6 @@
 
 console.log('Waiting...');
 
-setTimeout(() => console.log('.'), 5000); // 5 seconds...
+const addDash = () => console.log('-');
+
+setTimeout(addDash, 5000); // 5 seconds...
