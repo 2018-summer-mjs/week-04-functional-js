@@ -16,6 +16,7 @@
 // more...
 // 
 
+// step-03
 console.log('Waiting...');
 
 setTimeout(() => console.log('.'), 5000); // 5 seconds...
