@@ -1,3 +1,46 @@
+//
+// Numbers first
+//
+const numbers = [1, 2, 3];
+console.log(numbers);
+
+const numbersPlus10 = numbers.map(x => x + 10);
+console.log(numbersPlus10);
+
+const evenNumbers = numbers.filter(x => x % 2 === 0);
+console.log(evenNumbers);
+
+const oddNumbersAfterTakingNumbersTimesThree = numbers.map(x => x * 3)
+    .filter(x => x % 2 !== 0);
+console.log(oddNumbersAfterTakingNumbersTimesThree);
+
+const numbersLessThanFiveAfterAddingThree = numbers.map(x => x + 3)
+    .filter (x => x < 5);
+console.log(numbersLessThanFiveAfterAddingThree);
+
+const sum = numbers.reduce((total, number) => total += number, 0);
+console.log(sum);
+
+//
+// Strings next...
+//
+const strings = ["foo", "bar", "cat", "foobar"];
+
+const helloStrings = strings.map(x => "Hello " + x);
+console.log(helloStrings);
+
+const listItemStrings = strings.map(x => `<li>${x}</li>`);
+console.log(listItemStrings);
+
+const startWithFooStrings = strings.filter(x => /^foo/.test(x));
+console.log(startWithFooStrings);
+
+const stringOfFirstLetters = strings.reduce((firstLetters, string) => firstLetters + string[0], "");
+console.log(stringOfFirstLetters);
+
+//
+// Objects last!!!
+//
 
 // Cats
 const cats = [
@@ -69,7 +112,8 @@ const books = [
 
 // What does this give us?
 const what = books
-                .map((b) => ({ title: b.title, price: b.price * 1.10 }))
-                .filter((b) => b.price > 7.50);
+                .map(b => ({ title: b.title, price: b.price * 1.10 }))
+                .filter(b => b.price > 7.50)
+                .map(b => b.title);
 
 console.log(what);
