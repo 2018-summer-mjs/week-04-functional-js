@@ -16,6 +16,7 @@
 // more...
 // 
 
+// step-04
 console.log('Waiting...');
 
 const addDash = () => console.log('-');
