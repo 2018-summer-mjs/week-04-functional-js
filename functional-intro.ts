@@ -18,6 +18,7 @@
 
 console.log('Waiting...');
 
+// step-01
 function addDot() {
     console.log('.');
 }
