@@ -19,6 +19,24 @@
 // step-04
 console.log('Waiting...');
 
-const addDash = () => console.log('-');
+const addDash = () => { 
+    console.log('-');
+    console.log('another-line');
+};
 
 setTimeout(addDash, 5000); // 5 seconds...
+
+// camelCase
+// twoHumpCamel
+
+// PascalCase
+
+// snake_case_hisss
+
+// kebab-case
+// this-meat-and-veggies-on-a-skewer
+
+
+// x
+// y
+// f
