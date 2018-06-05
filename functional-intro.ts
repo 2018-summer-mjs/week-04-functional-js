@@ -1,6 +1,6 @@
 //
 // What is the benefit of using anonymous functions
-// via lambdas over namved functions with the 'function'
+// via lambdas over named functions with the 'function'
 // keyword?
 //
 // Consider...
