@@ -2,4 +2,5 @@
 
 Let's learn some functional-js using TypeScript of course : - )
 
-dashed changes not committed.  now.  
+
+dashed changes not committed...
